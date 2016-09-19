@@ -1,0 +1,64 @@
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
+
+body {
+  background-color: #ff471a;
+  font-family: "Montserrat", sans-serif;
+  color: #d9d9d9;
+}
+#title {
+  font-size: 65px;
+  text-align: center;
+  letter-spacing: 5px;
+  margin-top: 150px;
+}
+#main {
+  position: relative;
+}
+#subtitle {
+    position: absolute;
+    display: inline-block;
+    top: 58px;
+    font-size: 14px;
+    border-right: #d9d9d9 solid 8.9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999px;
+    left: 34.7%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+#name {
+  text-align: center;
+  height: 50px;
+  width: 100%;
+  background-color: transparent;
+  border: solid 2px #d9d9d9;
+  border-bottom: dotted;
+  font-size: 35px;
+  color: #d9d9d9;
+  padding: 0;
+}
+#search {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #cccccc;
+  font-weight: 100;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #cccccc;
+  font-weight: 100;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #cccccc;
+  font-weight: 100;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #cccccc;
+  font-weight: 100;
+}
+#search:focus {
+  outline: none !important;
+}
